@@ -150,24 +150,24 @@
   row-gap: 24px;
 }
 
-.recipes__videos .iframe {
+.recipes__videos .recipes__iframe {
   width: 480px;
   height: 273px;
 }
 
-.video_container {
+.recipes__videos_container {
   display: flex;
   max-width: 480px;
   flex-wrap: wrap;
 }
 
-.video_caption_container {
+.recipes__videos_caption_container {
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
 
-.video_caption {
+.recipes__videos_caption {
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
