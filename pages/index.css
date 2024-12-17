@@ -109,7 +109,7 @@
 .recipes {
   background-image: url(../images/background_recipes.svg);
   background-repeat: no-repeat;
-  size: cover;
+  background-size: cover;
   background-position: center;
   background-color: #0a2750;
   height: 874px;
