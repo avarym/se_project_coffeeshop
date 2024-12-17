@@ -30,7 +30,7 @@
             <a class="nav__link" href="#recipes">Recipes</a>
             <a class="nav__link" href="#reservation">Book a Table</a>
             <a class="nav__link" href="#menu">Menu</a>
-            <a class="nav__link" href="#about">Contact</a>
+            <a class="nav__link" href="#contact">Contact</a>
           </div>
         </nav>
         <h1 class="header__title">
@@ -47,13 +47,17 @@
           alt="coffee shop image"
         />
         <div class="header__footer">
-          <div class="header__footer_right">
-            <p class="header__footer_p">Hours:</p>
-            <p class="header__footer_p">Monday - Friday (10:00 - 19:00)</p>
-            <p class="header__footer_p">Saturday - Sunday (11:00 - 18:00)</p>
+          <div class="header__footer header__footer_right">
+            <p class="header__footer header__footer_p">Hours:</p>
+            <p class="header__footer header__footer_p">
+              Monday - Friday (10:00 - 19:00)
+            </p>
+            <p class="header__footer header__footer_p">
+              Saturday - Sunday (11:00 - 18:00)
+            </p>
           </div>
-          <div class="header__footer_left">
-            <p class="header__footer_p">
+          <div class="header__footer header__footer_left">
+            <p class="header__footer header__footer_p">
               200 Successe Avenue, The Town of Triple Peaks
             </p>
           </div>
@@ -67,47 +71,45 @@
             convenience:
           </p>
           <div class="recipes__videos">
-            <div class="video_container">
+            <div class="recipes__videos video_container">
               <iframe
-                class="iframe"
+                class="recipes__iframe"
                 width="560"
                 height="315"
                 src="https://www.youtube.com/embed/j6VlT_jUVPc?si=BAmkuqJByKSHN009"
                 title="YouTube video player"
-                frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen
               ></iframe>
-              <div class="video_caption_container">
-                <p class="video_caption">Aeropress recipe</p>
-                <p class="video_caption">~5min</p>
+              <div class="recipes__videos video_caption_container">
+                <p class="recipes__videos video_caption">Aeropress recipe</p>
+                <p class="recipes__videos video_caption">~5min</p>
               </div>
             </div>
-            <div class="video_container">
+            <div class="recipes__videos video_container">
               <iframe
-                class="iframe"
+                class="recipes__iframe"
                 width="560"
                 height="315"
                 src="https://www.youtube.com/embed/st571DYYTR8?si=UZ4ltP4m7-lfeKeS"
                 title="YouTube video player"
-                frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen
               ></iframe>
-              <div class="video_caption_container">
-                <p class="video_caption">French press recipe</p>
-                <p class="video_caption">~15min</p>
+              <div class="recipes__videos video_caption_container">
+                <p class="recipes__videos video_caption">French press recipe</p>
+                <p class="recipes__videos video_caption">~15min</p>
               </div>
             </div>
           </div>
         </section>
         <section id="reservation" class="reservation"></section>
         <section id="manu" class="menu"></section>
-        <section id="about" class="about"></section>
+        <section class="about"></section>
       </main>
-      <footer class="footer"></footer>
+      <footer id="contact" class="footer"></footer>
     </div>
   </body>
 </html>
