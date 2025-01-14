@@ -8,6 +8,7 @@
 }
 
 .menu__title {
+  text-align: center;
   margin: 0 auto;
   max-width: 780px;
   padding-bottom: 24px;
@@ -19,6 +20,7 @@
 }
 
 .menu__subtitle {
+  text-align: center;
   margin: 0 auto;
   max-width: 780px;
   padding-bottom: 100px;
