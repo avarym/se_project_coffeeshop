@@ -4,7 +4,6 @@
   background-size: cover;
   background-position: center;
   background-color: #0a2750;
-  height: 874px;
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -34,7 +33,7 @@
 
 .recipes__videos {
   margin: 0 auto;
-  padding: 0;
+  padding-bottom: 215px;
   justify-content: center;
   display: flex;
   column-gap: 40px;
@@ -53,7 +52,7 @@
 
 .recipes__video-caption {
   width: 100%;
-  height: 30px;
+  margin: 24px 0 0;
   padding: 0;
   display: flex;
   justify-content: space-between;
