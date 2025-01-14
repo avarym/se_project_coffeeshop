@@ -64,12 +64,12 @@
   max-height: 60px;
 }
 
-.header__footer_p {
+.header__paragraph {
   margin: 0;
   padding: 0;
 }
 
-.header__footer_right {
+.header__hours {
   display: flex;
   flex-direction: column;
 }
